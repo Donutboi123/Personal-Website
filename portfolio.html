@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="portfolio/css/styles.css" />
+        <script src="portfolio/js/main.js" defer></script>
+
+        <title>Logan's Portfolio</title>
+    </head>
+
+    <body>
+        <br />
+        <h1 class="text">Logan Hersen's Project Portfolio</h1>
+        <div class="container">
+            <div class="legend">
+                <h3>
+                    Each project is colour coded to categorize what the project
+                    was developed for:
+                </h3>
+                <h2 class="schoolwork">Schoolwork</h2>
+                <h2 class="logovation">Logovation</h2>
+                <h2 class="personal">Personal</h2>
+            </div>
+            <h2 class="text2">Click on a project below to learn more!</h2>
+        </div>
+        <br />
+        <!--Seperating line -->
+        <div class="logovation"></div>
+        <br />
+
+        <!--Portfolio Table -->
+        <table>
+            <tr>
+                <th>
+                    <div class="proj-btn">
+                        <!--Wireless Charger-->
+                        <div class="personal">
+                            <button id="btn4" data-modal="proj4">
+                                <h1>Wireless Charger</h1>
+                                <p>
+                                    Portable wireless charger that attaches to a
+                                    smartphone
+                                </p>
+                                <p>Last updated: February 22, 2026</p>
+                            </button>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="proj-btn">
+                        <!--Capstone-->
+                        <div class="schoolwork">
+                            <button id="btn3" data-modal="proj3">
+                                <h1>Capstone</h1>
+                                <p>
+                                    A collar containing two ultrasonic doppler
+                                    sensors monitoring blood flow for organ
+                                    donor patients.
+                                </p>
+                                <p>Completed: April 7, 2025</p>
+                            </button>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="proj-btn">
+                        <!--HappyJoe-->
+                        <div class="schoolwork">
+                            <button id="btn2" data-modal="proj2">
+                                <h1>HappyJoe</h1>
+                                <p>
+                                    Temperature sensing hotplate that maintains
+                                    desired temperature for drink.
+                                </p>
+                                <p>Completed: April 16, 2022</p>
+                            </button>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="proj-btn">
+                        <!--Intelli-Lock-->
+                        <div class="schoolwork">
+                            <button id="btn1" data-modal="proj1">
+                                <h1>Intelli-Lock</h1>
+                                <p>
+                                    Arduino powered door lock accessed by
+                                    keycard
+                                </p>
+                                <p>Completed: April 1, 2022</p>
+                            </button>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            <!--<tr>
+                <th></th>
+                <th></th>
+            </tr>-->
+        </table>
+
+        <!--Modal Content-->
+        <div id="proj4" class="modal">
+            <!--Wireless Charger-->
+            <div class="proj-content">
+                <div class="personal">
+                    <span class="close">&times;</span>
+                    <div class="container">
+                        <img
+                            src="portfolio/images/wirelessCharger.png"
+                            alt="Wireless Charger Model"
+                            class="responsive"
+                        />
+                        <div class="containerText">
+                            <h3>What is it?</h3>
+                            <p>
+                                A portable wireless charger that can be attached
+                                to any compatible smartphone or any other
+                                wireless charging enabled device. Custom case
+                                for charger designed by Logan Hersen using
+                                SolidWorks.
+                            </p>
+                            <h3>How does it work?</h3>
+                            <p>
+                                Utilizes the
+                                <a
+                                    href="https://www.adafruit.com/product/2162?srsltid=AfmBOoqQyPYnFpHsMgjP1MWUBhhwE9DfYZyL8gZUTBDIXjoTyQeCd6yP"
+                                    target="_blank"
+                                    >Adafruit Universal Qi Wireless Charging
+                                    Transmitter
+                                </a>
+                                to charge target device. 3D printed case to
+                                protect hardware as well as to constistently
+                                orient charging coil.
+                            </p>
+                            <h3>Why?</h3>
+                            <p>
+                                My personal smartphone's charging port is
+                                damaged, so using wireless charging is more
+                                efficient for my smartphone. I wanted to have a
+                                wireless charger that clamps onto my phone that
+                                I could take with me anywhere.
+                            </p>
+                            <p>
+                                <a
+                                    href="https://github.com/Donutboi123/portable-wireless-charger"
+                                    target="_blank"
+                                    >Source files</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="proj3" class="modal">
+            <!--Capstone-->
+            <div class="proj-content">
+                <div class="schoolwork">
+                    <span class="close">&times;</span>
+                    <div class="container">
+                        <img
+                            src="portfolio/images/capstone.png"
+                            alt="Capstone Model"
+                            class="responsive"
+                        />
+                        <div class="containerText">
+                            <h3>What is it?</h3>
+                            <p>
+                                The device uses Doppler ultrasound to
+                                non-invasively monitor cerebral blood flow in
+                                organ donor patients undergoing
+                                <a
+                                    href="https://www.myast.org/normothermic-regional-perfusion-nrp"
+                                    target="_blank"
+                                    >normothermic regional perfusion</a
+                                >. The device sets an alarm off if there is any
+                                blood flow detected in the patient's carotid
+                                arteries, which would raise ethical concerns
+                                over the patient's neurological status. The
+                                device is a human sized collar that is fitted on
+                                the patient prior to the operation. An
+                                audiovisual alarm system is set off if blood
+                                flow is detected.
+                            </p>
+                            <h3>How does it work?</h3>
+                            <p>
+                                The device contains two
+                                <a
+                                    href="https://www.unictron.com/ultrasonic-transducers/products-overview/ultrasonic-liquid-transducer/mpya/"
+                                    target="_blank"
+                                    >pulsed-wave ultrasonic doppler
+                                    transducers</a
+                                >
+                                to determine if bloodflow is present in the
+                                patient's carotid arteries. The transducers are
+                                placed on sliding holders to allow them to be
+                                adjusted to point to the carotid arteries of the
+                                patient. The system integrates a
+                                <a
+                                    href="https://www.ti.com/product/MSP430FR5043"
+                                    target="_blank"
+                                    >Texas Instruments MSP430FR5043
+                                    microcontroller</a
+                                >
+                                for real-time signal processing as well as
+                                managing the audiovisual alarm system. The
+                                project builds upon ETH Zurich’s open-source
+                                <a
+                                    href="https://github.com/pulp-bio/wulpus"
+                                    target="_blank"
+                                    >WULPUS</a
+                                >
+                                architecture, with enhancements tailored to
+                                blood flow detection.
+                            </p>
+                            <h3>Why?</h3>
+                            <p>
+                                The aim for this capstone project is to serve as
+                                a clinical aid for confirming brain death and
+                                offers a scalable foundation for future
+                                advancements in portable ultrasound technology.
+                            </p>
+                            <p>
+                                Capstone supervisor: Dr. James C. Lacefield,
+                                P.Eng
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="proj2" class="modal">
+            <!--HappyJoe-->
+            <div class="proj-content">
+                <div class="schoolwork">
+                    <span class="close">&times;</span>
+                    <div class="container">
+                        <img
+                            src="portfolio/images/.png"
+                            alt="HappyJoe Model"
+                            class="responsive"
+                        />
+                        <div class="containerText">
+                            <h3>What is it?</h3>
+                            <p>
+                                The HappyJoe is a temperature measuring hot
+                                plate where the user enters the desired
+                                temperature they would like the drink placed on
+                                the hot plate to be maintained at, and the
+                                device actively monitors and adjusts the
+                                temperature of the drink to maintain the user
+                                desired temperature.
+                            </p>
+                            <h3>How does it work?</h3>
+                            <p>
+                                The HappyJoe utilizes a
+                                <a
+                                    href="https://www.ti.com/product/TMP236/part-details/TMP236A2DCKT"
+                                    target="_blank"
+                                    >thermal sensor</a
+                                >
+                                to monitor the drink's current temperature. The
+                                hot plate heats up the drink to maintain the
+                                desired temperature as necessary. Once the
+                                desired temperature is reached, a buzzer goes
+                                off alerting the user the drink is ready.
+                            </p>
+                            <h3>Why?</h3>
+                            <p>
+                                I like my hot beverages not scalding, but on the
+                                lower end of the average temperature range.
+                                Problem is, that it takes a long time for a
+                                freshly brewed cup of coffee to reach the
+                                temperature I like it at. Even worse, since I
+                                like the temperature to be lower than average,
+                                the temperature can quickly drop below the
+                                temperature I like and just end up plain old
+                                cold. I will often make a drink but then forget
+                                about it while I wait for it to cool, so this is
+                                designed to help prevent that from happening.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="proj1" class="modal">
+            <!--Intelli-Lock-->
+            <div class="proj-content">
+                <div class="schoolwork">
+                    <span class="close">&times;</span>
+                    <div class="container">
+                        <img
+                            src="portfolio/images/intelli-lock.png"
+                            alt="Intelli-Lock Diagram"
+                            class="responsive"
+                        />
+                        <div class="containerText">
+                            <h3>What is it?</h3>
+                            <p>
+                                The Intelli-Lock is a home security system that
+                                schedules when the door it's installed in should
+                                be locked or not, as well as granting access to
+                                users with valid keycards. There is an internal
+                                button to allow users to exit from within the
+                                locked area. The device also contains a buzzer
+                                that will go off depending on if access is
+                                granted or not.
+                            </p>
+                            <h3>How does it work?</h3>
+                            <p>
+                                System is designed as an Arduino shield that can
+                                be installed directly ontop of an Arduino. The
+                                system uses an RFID pcb to scan the user's
+                                keycard. Realtime Clock module used for device
+                                to track current time. Micro servo used to allow
+                                precise movements for locking/unlocking the
+                                door.
+                            </p>
+                            <h3>Why?</h3>
+                            <p>
+                                Unautomated security systems are an
+                                inconvenience for workers in a store who are
+                                trying to lock up for the day, as customers can
+                                enter the store past closing time due to the
+                                doors not being locked automatically when the
+                                store closes for the night. The Intelli-Lock
+                                system is designed to ease that pain and to
+                                improve the closing procedures for a store.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
