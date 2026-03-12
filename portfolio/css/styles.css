@@ -1,45 +1,50 @@
 body {
     background-color: rgb(35, 35, 35);
+    height: 100vh;
+}
+
+table {
+    margin: auto;
 }
 
 .text {
     text-align: center;
-    color: rgb(0, 200, 0);
+    color: rgb(5, 165, 35);
     font-family: "Nunito Sans", sans-serif;
 }
 
 .text2 {
     padding-left: 10%;
-    color: rgb(0, 200, 0);
+    color: rgb(5, 165, 35);
     font-family: "Nunito Sans", sans-serif;
 }
 
 .legend {
     background-color: lightgrey;
-    border: 5px solid teal;
+    border: 0.65vh solid teal;
     width: 35%;
     overflow-wrap: break-word;
     font-family: "Nunito Sans", sans-serif;
-    padding: 5px;
+    padding: 0.5vh;
 }
 
 .schoolwork {
     background-color: lightblue;
-    border: 5px solid blue;
+    border: 0.65vh solid blue;
 }
 
 .logovation {
     background-color: lightgreen;
-    border: 5px solid green;
+    border: 0.65vh solid rgb(5, 165, 35);
 }
 
 .personal {
     background-color: lightyellow;
-    border: 5px solid yellow;
+    border: 0.65vh solid yellow;
 }
 
 .proj-btn {
-    width: 250px;
+    width: 25vh;
     overflow-wrap: break-word;
     font-family: "Nunito Sans", sans-serif;
 }
@@ -57,7 +62,6 @@ body {
 
 .proj-content {
     margin: 15% auto;
-    padding: 20px;
     width: 80%;
     font-family: "Nunito Sans", sans-serif;
 }
@@ -66,8 +70,8 @@ body {
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-    padding: 5px;
-    gap: 5px;
+    padding: 0.5vh;
+    gap: 2vh;
 }
 
 .containerText {
@@ -79,10 +83,14 @@ body {
     height: auto;
 }
 
+.centre {
+    text-align: center;
+}
+
 .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 3vh;
     font-weight: bold;
 }
 
